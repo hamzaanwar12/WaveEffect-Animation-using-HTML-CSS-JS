@@ -1,0 +1,69 @@
+*{
+    font-family:  cursive;
+    color: white;
+    font-size: 17px;
+}
+body{
+    background-color: #217499;
+}
+
+.container{
+    width: 20%;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 8rem;
+    background-color: #00000066;
+    border: none;
+    border-radius: 1.25rem;
+}
+
+.container div{
+    margin-left: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+
+
+h1.login,button{
+    font-size: 22px;
+    text-align: center;
+}
+
+h1.login{
+    margin-top: 3rem;
+    font-size: 27px;
+}
+
+span{
+    position: relative;
+    top: 27px;
+    transition-property: top;
+}
+
+.spanActive{
+    top: 0px;
+}
+
+button{
+    color: black;
+    width: 92%;
+    height: 3rem;
+}
+a{
+    color: #217499;
+}
+
+a:hover,a:active{
+    color: cadetblue;
+}
+
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+input:focus{
+    outline:none;
+}
